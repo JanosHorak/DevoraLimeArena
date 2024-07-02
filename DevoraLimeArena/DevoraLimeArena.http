@@ -1,0 +1,6 @@
+@DevoraLimeArena_HostAddress = http://localhost:5093
+
+GET {{DevoraLimeArena_HostAddress}}/Arena/
+Accept: application/json
+
+###
