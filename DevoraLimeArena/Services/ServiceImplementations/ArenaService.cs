@@ -39,7 +39,6 @@ namespace DevoraLimeArena.Services.ServiceImplementations
                 newGenerated.Id = null;
                 var newItem = newGenerated as Fighter; 
                 fighters.Add(newItem);
-               
             }
 
             var arena = arenaRepository.CreateArenaEntity(fighters);
